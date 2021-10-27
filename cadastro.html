@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="secestilo.css">
+    <link rel="shortcut icon" href="hat.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+        <header>
+            <div class="container">
+            <h2 class="logo">NINTENDOFLIX</h2>
+            <nav>
+                <a href="index.html">Início</a>
+                <a href="games.html">Games</a>
+                <a href="cadastro.html">Cadastro</a>
+                <a href="area_cliente.html">Área do Cliente</a>
+            </nav>
+            </div>
+        </header>
+    
+        <center>
+            <h3 class="subtitle">CADASTRE-SE E TENHA ACESSO AOS NOSSOS GAMES</h3>
+            <form method="GET" action="#">
+                Nome:  <input type="text" size="25" maxlength="30" name="nome" placeholder="Digite o nome completo" required><br><br> 
+                E-mail: <input type="text" size="25" maxlength="30" name="site" placeholder="nome@email.com" required><br><br>
+                Endereço: <input type="text" size="35" maxlength="30" name="end" required><br><br>
+                Bairro: <input type="text" size="10" maxlength="10" name="bairro" required><br><br>
+                Cidade:<input type="text" size="10" maxlength="10" name="end" required><br><br>
+                UF: <select>
+                    <option value="---">---</option>
+                    <option value="PE">PE</option>
+                    <option value="AC">AC</option>
+                    <option value="CE">CE</option>
+                    <option value="SP">SP</option>
+                    <option value="RJ">RJ</option>
+                    <option value="BA">BA</option>
+                </select><p>
+                Complemento: <input type="text" size="35" maxlength="30" name="comp"><br><br>
+            <h3 class="subtitle">Dados Pessoais</h3>
+                RG: <input type="text" size="15" maxlength="15" name="RG">
+                Orgão Emissor: <input type="text" size="15" maxlength="15" name="RG">
+                CPF: <input type="text" size="15" maxlength="15" name="CPF"><br><br>
+                Data de Nascimento: <input type="date" size="15" maxlength="10" name="data"><br><br>
+                Sexo:
+                 <input type="radio" value="M" name="site"> Masculino
+                 <input type="radio" value="F" name="site"> Feminino
+                 <input type="radio" value="O" name="site"> Outros<p> 
+                
+    
+                <input type="submit" value="Enviar">    <input type="reset" value="Limpar">
+            </form>
+        </center>
+</body>
+</html>

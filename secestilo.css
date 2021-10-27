@@ -1,0 +1,68 @@
+body{
+    background-image: url(../Atividade/img/world4.jpg);
+
+    height: 800px;
+}
+
+.logo{
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 30px;
+    
+}
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+a{
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(255, 255, 255);
+   font-size: 20px;
+   text-decoration: none;
+   margin-right: 5px;
+}
+
+a:hover{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   color: black;
+   text-decoration: none;
+}
+
+.container{
+   display: flex;
+   flex-direction: row;
+   border: solid rgb(255, 255, 255);
+   align-items: center;
+   justify-content: space-between;
+   
+}
+
+.subtitle{
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   color: white;
+   font-size: 35px;
+   font-style: italic;
+}
+
+form{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    
+}
+
+input[type=text]{
+    background-color:rgb(255, 255, 255);
+    color:red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type=password]{
+    background-color:rgb(255, 255, 255);
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
